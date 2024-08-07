@@ -11,7 +11,7 @@ function addFunc() {
         console.log(todoArr);
         
     } else {
-        alert("plz insert value")
+        alert("plz firstly insert value")
     }
     printAllTodos();
     addVal.value = "";
