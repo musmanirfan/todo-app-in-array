@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo App</title>
+</head>
+
+<body style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <h2>Todo App</h2>
+    <div class="show">
+        <input type="text" id="name">
+        <button onclick="addFunc()">Add</button>
+    </div>
+
+    <div class="hide">
+        <input type="text" id="edit-name">
+        <button onclick="updateButton()">Update</button>
+    </div>
+    <div class="todo-list"></div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
