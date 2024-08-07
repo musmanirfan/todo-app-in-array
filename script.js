@@ -22,7 +22,7 @@ function printAllTodos() {
     todoList.innerHTML = "";
     for (let i = 0; i < todoArr.length; i++) {
         todoList.innerHTML += `<div class="todo-list-div">
-        <p id="todo-${i}">${todoarr[i]}</p>
+        <p id="todo-${i}">${todoArr[i]}</p>
         <button onclick="editButton(${i})">Edit</button>
         <button onclick="deleteTodo(${i})">Delete</button>  
         </div>
