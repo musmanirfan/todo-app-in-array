@@ -60,5 +60,4 @@ function updateButton (){
     showInp.className = "show";
     printAllTodos();
     console.log(todoArr);
-    
 }
